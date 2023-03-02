@@ -1,0 +1,87 @@
+/* Setting `<body>` element's font to "Roboto" font family: */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling for "Create Record", "Update Record", and "Delete Record" forms: */
+#create-record-form, #update-record-form, #delete-record-form {
+    display: none;
+}
+
+/* General styling: */
+#main-div {
+    text-align: center;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+table {
+    margin: 15px auto;
+    width: 50vw;
+    text-align: center;
+}
+
+table tr td {
+    padding: 12px;
+}
+
+/* Styling for "Create Record", "Edit Record", and "Delete Record" buttons: */
+#create-record-button, #update-record-button, #delete-record-button {
+    width: 140px;
+    height: 37.5px;
+    background-color: blue;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+/* Styling for "Delete All Records" button: */
+#delete-all-records-button {
+    width: 210px;
+    height: 46.875px;
+    background-color: rgb(181, 15, 9);
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/* Styling "Save" button present in "Create Record", "Update Record", and "Delete Record" forms: */
+.save-button {
+    width: 76px;
+    height: 30px;
+    background-color: blue;
+    color: #FFFFAA;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styling "Create Record", "Update Record", and "Delete Record" forms: */
+input[type="text"] {
+    margin: 6px;
+    width: 260px;
+    height: 32px;
+    padding: 10px;
+}
+
+/* Styling for "Select Movie Genre" `<label>` element in "Create Record" and "Update Record" forms: */
+label {
+    font-size: 14px;
+    color:rgb(117, 117, 117);
+    padding-top: 15px;
+    margin: 6px 6px 6px 30px;
+    display: inline-block;
+    height: 32px;
+}
+
+/* Styling for "Select Movie Genre" `<select>` element in the "Create Record" and "Update Record" forms: */
+#select-genre-drop-down {
+    width: 132px;
+    height: 56px;
+    margin: 6px 18px 6px 6px;
+    padding: 10px;
+}
